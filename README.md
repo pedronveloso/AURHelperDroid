@@ -52,3 +52,13 @@ And of course, thank you :)
 
 # DONORS #
 
+# Dependencies #
+
+A special thanks to all the maintainers of the libraries this application uses. Without their contributions the development time would be much higher.
+
+ActionsContentView lib by Steven Rudenko :
+https://github.com/StevenRudenko/ActionsContentView
+
+Android Asynchronous Http Client by LoopJ:
+https://github.com/loopj/android-async-http
+
