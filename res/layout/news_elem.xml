@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="@dimen/default_side_margin"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/lorum_ipsum"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark_nodisable"
+            android:text="@string/lorum_ipsum"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/font_size_small"
+                android:text="@string/lorum_ipsum"/>
+
+        <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/font_size_small"
+                android:text="@string/lorum_ipsum"/>
+
+    </LinearLayout>
+
+</LinearLayout>

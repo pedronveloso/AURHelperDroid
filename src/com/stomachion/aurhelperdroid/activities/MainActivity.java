@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.stomachion.aurhelperdroid.R;
 import com.stomachion.aurhelperdroid.fragments.AboutFrag;
+import com.stomachion.aurhelperdroid.fragments.NewsRSSFrag;
 import com.stomachion.aurhelperdroid.fragments.PreferencesFrag;
 import com.stomachion.aurhelperdroid.fragments.SearchFrag;
 import shared.ui.actionscontentview.ActionsContentView;
@@ -55,7 +56,7 @@ public class MainActivity extends FragmentActivity implements AdapterView.OnItem
         final Fragment f;
         switch (position) {
             case MENU_NEW:
-                f = new AboutFrag();
+                f = new NewsRSSFrag();
                 break;
 
             case MENU_SEARCH:
