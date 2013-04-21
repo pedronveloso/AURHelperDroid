@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AUR Helper Droid</string>
+
+    <!-- Menus -->
+    <string name="menu_about">About</string>
+    <string name="menu_new">New</string>
+    <string name="menu_important">Important</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_prefs">Preferences</string>
+
 </resources>
