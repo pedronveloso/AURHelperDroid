@@ -9,4 +9,7 @@
     <string name="menu_search">Search</string>
     <string name="menu_prefs">Preferences</string>
 
+    <!-- Preferences -->
+    <string name="pref_general_title">General</string>
+
 </resources>
