@@ -1,4 +1,4 @@
-package com.stomachion.aurhelperdroid;
+package com.stomachion.aurhelperdroid.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.stomachion.aurhelperdroid.R;
 import com.stomachion.aurhelperdroid.fragments.AboutFrag;
+import com.stomachion.aurhelperdroid.fragments.PreferencesFrag;
 import com.stomachion.aurhelperdroid.fragments.SearchFrag;
 import shared.ui.actionscontentview.ActionsContentView;
 
@@ -65,7 +67,7 @@ public class MainActivity extends FragmentActivity implements AdapterView.OnItem
                 break;
 
             case MENU_PREFERENCES:
-                f = new AboutFrag();
+                f = new PreferencesFrag();
                 break;
 
             default:
